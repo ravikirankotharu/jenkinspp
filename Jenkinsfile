@@ -1,4 +1,4 @@
-node('ubuntu') {
+node('ansible') {
     stage('git') {
     git 'https://github.com/wakaleo/game-of-life.git'
     }
