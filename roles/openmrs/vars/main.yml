@@ -1,0 +1,5 @@
+---
+# vars file for openmrs
+tomcat_version_url: https://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.24/bin/apache-tomcat-9.0.24.tar.gz
+war_file_url: https://excellmedia.dl.sourceforge.net/project/openmrs/releases/OpenMRS_Platform_2.2.0/openmrs.war
+tomcat_tar_file: apache-tomcat-9.0.24.tar.gz

@@ -1,0 +1,6 @@
+---
+# handlers file for openmrs
+- name: restart tomcat
+  service:
+    state: restarted
+    name: tomcat
