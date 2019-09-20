@@ -11,4 +11,7 @@ node('ubuntu') {
     stage('junitresults'){
     junit 'gameoflife-web/target/surefire-reports/*.xml'
     }
+    stage('ansible deployment') {
+    sh label: '', script: 'ansible-playbook gof.yml'
+    }
 }
