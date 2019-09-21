@@ -6,7 +6,7 @@ node('ansible') {
     sh label: '', script: 'mvn package'
     }
     stage('copywarfile') {
-    sh label: '', script: 'cp -r gameoflife-web/target/*.war to /home/jenkins/'
+    sh label: '', script: 'cp -r gameoflife-web/target/*.war to /var/lib/jenkins/'
     }
     stage('artifacts') {
     archiveArtifacts 'gameoflife-web/target/*.war'
