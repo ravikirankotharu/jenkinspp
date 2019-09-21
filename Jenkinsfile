@@ -1,6 +1,6 @@
 node('ansible') {
     stage('git') {
-    git 'https://github.com/wakaleo/game-of-life.git'
+    git 'https://github.com/ravikirankotharu/jenkinspp.git'
     }
     stage('maven') {
     sh label: '', script: 'mvn package'
