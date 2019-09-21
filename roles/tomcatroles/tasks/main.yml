@@ -75,5 +75,6 @@
   copy:
     src: "{{ war_file_location }}"
     dest: /opt/tomcat/webapps/
+    remote_src: yes
   notify:
     restart tomcat
