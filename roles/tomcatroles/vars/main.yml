@@ -1,5 +1,5 @@
 ---
 # vars file for tomcatroles
 tomcat_version_url: https://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.24/bin/apache-tomcat-9.0.24.tar.gz
-war_file_location: */target/*.war
+war_file_location: gameoflife-web/target/*.war
 tomcat_tar_file: apache-tomcat-9.0.24.tar.gz
