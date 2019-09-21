@@ -1,5 +1,5 @@
 ---
 # vars file for tomcatroles
 tomcat_version_url: https://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.26/bin/apache-tomcat-9.0.26.tar.gz
-war_file_location: gameoflife-web/target/*.war
+war_file_location: /home/jenkins/workspace/ansible/gameoflife-web/target/*.war
 tomcat_tar_file: apache-tomcat-9.0.26.tar.gz
