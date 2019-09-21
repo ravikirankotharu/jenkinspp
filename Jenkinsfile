@@ -4,6 +4,7 @@ node('ansible') {
     }
     stage('maven') {
     sh label: '', script: 'mvn package'
+    sh label: '', script: 'cp -r */gameoflife-web/target/*.war to /home/jenkins/'
     }
     stage('artifacts') {
     archiveArtifacts 'gameoflife-web/target/*.war'
